@@ -4,8 +4,8 @@ export { onRenderHtml }
 import ReactDOMServer from 'react-dom/server'
 import { escapeInject, dangerouslySkipEscape } from 'vike/server'
 import logoUrl from '/favicon.ico'
-import { Layout } from '@/lib/Layout'
 import { getPageTitle } from '@/lib/getPageTitle'
+import { Layout } from './Layout'
 
 function onRenderHtml(pageContext) {
   const { Page } = pageContext

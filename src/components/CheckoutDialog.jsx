@@ -16,7 +16,7 @@ import { useFormik } from "formik";
 import * as yup from 'yup';
 import { Check, Loader2, Star } from "lucide-react";
 import InputErrorLabel from "./InputErrorLabel";
-import { buyProduct } from "@/api/utils";
+import { buyProduct } from "@/api/payment";
 
 export function CheckoutDialog({ price, title, _id }) {
   const [open, setOpen] = useState(false);

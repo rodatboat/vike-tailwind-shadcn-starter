@@ -2,6 +2,7 @@ import { Minus, Plus } from "lucide-react";
 import { useState } from "react";
 
 const APP_URI = `${import.meta.env.VITE_APP_URI}`
+const CONTACT_EMAIL = `${import.meta.env.VITE_APP_CONTACT_EMAIL}`
 
 
 export default function FAQ() {
@@ -15,42 +16,24 @@ export default function FAQ() {
                     <div>
                         Have another question? Contact us by
                         {" "}
-                        <a href="mailto:contact@abamock.com" target="_blank" className="underline font-semibold text-base-content">
+                        <a href={`mailto:${CONTACT_EMAIL}`} target="_blank" className="underline font-semibold text-base-content">
                             email
                         </a>.
                     </div>
                 </div>
 
                 <ul className="basis-1/2">
-                    <FAQItem title={"What if I don’t pass the exam?"}>
+                    <FAQItem title={"Lorem ipsum?"}>
                         <div className="space-y-2 leading-relaxed">
-                            <p>The exams & quizzes are designed for study purposes, so there is no pass or fail. After completing the exam, you'll be able to review your performance. The results are divided by tasks, allowing you to identify the areas that need more attention.</p>
+                            <p>Nam semper eros velit, sit amet sollicitudin lectus elementum eu. Quisque efficitur arcu quis mauris imperdiet, sed tincidunt erat hendrerit. Duis ultrices lectus tellus, eu bibendum lectus ultricies ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                         </div>
                     </FAQItem>
 
-                    <FAQItem title={"How long does it take to complete an exam?"}>
+                    <FAQItem title={"Lorem ipsum?"}>
                         <div className="space-y-2 leading-relaxed">
-                            <p>Exams give you up to 4 hours to finish, while quizzes range from 30 to 60 minutes (with no hard limit), depending on the number of questions.</p>
-                        </div>
-                    </FAQItem>
-
-                    <FAQItem title={"How many questions are on the exam?"}>
-                        <div className="space-y-2 leading-relaxed">
-                            <p>We currently offer over 5,000 practice questions and continuously update and add more.</p>
-                        </div>
-                    </FAQItem>
-
-                    <FAQItem title={"What task list items do your questions cover?"}>
-                        <div className="space-y-2 leading-relaxed">
-                            <p>Our questions cover all task lists of the RBT & BCBA exams, from A to I.</p>
-                        </div>
-                    </FAQItem>
-
-                    <FAQItem title={"How does it work?"}>
-                        <div className="space-y-2 leading-relaxed">
-                            <p>Simply purchase a package, and an access code will be sent to your email inbox. Once you receive your access code, you can activate it and register your account by 
-                            {" "}
-                            <a href={`${APP_URI}/activate`} className="underline font-semibold">clicking here.</a></p>
+                            <p>Nam semper eros velit, sit amet sollicitudin lectus elementum eu. Quisque efficitur arcu quis mauris imperdiet, sed tincidunt erat hendrerit. Duis ultrices lectus tellus, eu bibendum lectus ultricies ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                                {" "}
+                                <a href={`${APP_URI}/`} className="underline font-semibold">turpis egestas.</a></p>
                         </div>
                     </FAQItem>
                 </ul>

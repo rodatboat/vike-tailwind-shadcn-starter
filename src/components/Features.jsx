@@ -43,9 +43,9 @@ export default function Features({ data }) {
         <section className="py-24 md:py-32 space-y-24 md:space-y-32 max-w-7xl mx-auto">
             <div className="px-8">
                 <h2 className="font-extrabold text-3xl lg:text-5xl tracking-tight mb-12 md:mb-20 text-center md:text-left">
-                    <span className="text-5xl lg:text-7xl text-primary">Learn. Study. Pass.</span>
+                    <span className="text-5xl lg:text-7xl text-primary">10x. Faster</span>
                     <br />
-                    with ABAMock
+                    with Vike + Spring
                 </h2>
 
                 <div className=" flex flex-col md:flex-row gap-12 md:gap-24">

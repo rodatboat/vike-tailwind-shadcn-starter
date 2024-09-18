@@ -45,7 +45,7 @@ export default function PricingOption({ pricingData, popular = false }) {
 
                     <div className="space-y-2">
                         <CheckoutDialog {...pricingData} />
-                        <p className="flex items-center justify-center gap-2 text-sm text-center text-secondary-foreground/80 font-medium relative">30-day access to the course</p>
+                        <p className="flex items-center justify-center gap-2 text-sm text-center text-secondary-foreground/80 font-medium relative">Terms & conditions apply</p>
                     </div>
                 </div>
             </div>

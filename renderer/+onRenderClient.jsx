@@ -2,7 +2,7 @@
 export { onRenderClient }
 
 import { getPageTitle } from '@/lib/getPageTitle'
-import { Layout } from '@/lib/Layout'
+import { Layout } from './Layout'
 import ReactDOM from 'react-dom/client'
 
 let root

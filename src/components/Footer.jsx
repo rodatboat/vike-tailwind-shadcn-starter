@@ -1,5 +1,7 @@
 import logoUrl from '/android-chrome-512x512.png'
 
+const CONTACT_EMAIL = `${import.meta.env.VITE_APP_CONTACT_EMAIL}`
+
 export default function Footer() {
     return (
         <footer className="border-t">
@@ -10,12 +12,12 @@ export default function Footer() {
                             <img alt="Footer Image" fetchpriority="high"
                                 width="1080" height="1080" decoding="async" data-nimg="1" className="size-6" style={{ color: "transparent" }}
                                 src={logoUrl} />
-                            <strong className='font-extrabold tracking-tight text-base md:text-lg'>ABAMock</strong>
+                            <strong className='font-extrabold tracking-tight text-base md:text-lg'>Vike + Spring Starter</strong>
                         </a>
                         <p className='mt-3 text-sm opacity-80 leading-relaxed'>
-                            Study with us. Pass with us.
+                            Build faster products.
                             <br />
-                            contact@abamock.com
+                            {CONTACT_EMAIL}
                             {/* Copyright © 2024 - All rights reserved */}
                         </p>
                     </div>
